@@ -1,0 +1,265 @@
+[0.112s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.112s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78c238431270>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78c238430cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78c238430cd0>>, mixin_verb=('build',))
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.323s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sourav/kuka_ws'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_controllers) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_controllers' with type 'ros.ament_cmake' and name 'kuka_controllers'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_description) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_description' with type 'ros.ament_cmake' and name 'kuka_description'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_moveit) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_moveit' with type 'ros.ament_cmake' and name 'kuka_moveit'
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.478s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sourav/ardiunobot_ws/install
+[0.478s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/sourav/iki_workspace/ros2_ws/install
+[0.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sourav/turtlebot3_ws/install
+[0.481s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 458 installed packages in /opt/ros/humble
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'cmake_args' from command line to 'None'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.624s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sourav/kuka_ws/build/kuka_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sourav/kuka_ws/install/kuka_controllers', 'merge_install': False, 'path': '/home/sourav/kuka_ws/src/kuka_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sourav/kuka_ws/build/kuka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sourav/kuka_ws/install/kuka_description', 'merge_install': False, 'path': '/home/sourav/kuka_ws/src/kuka_description', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'kuka_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sourav/kuka_ws/build/kuka_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sourav/kuka_ws/install/kuka_moveit', 'merge_install': False, 'path': '/home/sourav/kuka_ws/src/kuka_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.626s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sourav/kuka_ws/src/kuka_controllers' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sourav/kuka_ws/src/kuka_controllers'
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sourav/kuka_ws/src/kuka_description' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sourav/kuka_ws/src/kuka_description'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sourav/kuka_ws/src/kuka_moveit' with build type 'ament_cmake'
+[0.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sourav/kuka_ws/src/kuka_moveit'
+[0.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourav/kuka_ws/build/kuka_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_controllers -- -j12 -l12
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourav/kuka_ws/build/kuka_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_moveit -- -j12 -l12
+[0.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_description
+[0.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourav/kuka_ws/build/kuka_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_controllers -- -j12 -l12
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourav/kuka_ws/build/kuka_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_controllers
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_description)
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_description
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description' for CMake module files
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description' for CMake config files
+[0.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_description', 'cmake_prefix_path')
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/hook/cmake_prefix_path.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/hook/cmake_prefix_path.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/hook/cmake_prefix_path.sh'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/bin'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/lib/pkgconfig/kuka_description.pc'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/lib/python3.10/site-packages'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/bin'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.ps1'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.dsv'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.sh'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.bash'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.zsh'
+[0.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourav/kuka_ws/install/kuka_description/share/colcon-core/packages/kuka_description)
+[0.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_description)
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description' for CMake module files
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description' for CMake config files
+[0.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_description', 'cmake_prefix_path')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/hook/cmake_prefix_path.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/hook/cmake_prefix_path.sh'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/bin'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/lib/pkgconfig/kuka_description.pc'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/lib/python3.10/site-packages'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_description/bin'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.sh'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.bash'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.zsh'
+[0.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourav/kuka_ws/install/kuka_description/share/colcon-core/packages/kuka_description)
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourav/kuka_ws/build/kuka_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_moveit -- -j12 -l12
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourav/kuka_ws/build/kuka_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_moveit
+[1.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_moveit)
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit' for CMake module files
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourav/kuka_ws/build/kuka_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_moveit
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit' for CMake config files
+[1.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_moveit', 'cmake_prefix_path')
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/hook/cmake_prefix_path.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/hook/cmake_prefix_path.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/hook/cmake_prefix_path.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/bin'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/lib/pkgconfig/kuka_moveit.pc'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/lib/python3.10/site-packages'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/bin'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.sh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourav/kuka_ws/install/kuka_moveit/share/colcon-core/packages/kuka_moveit)
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_moveit)
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit' for CMake module files
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit' for CMake config files
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_moveit', 'cmake_prefix_path')
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/hook/cmake_prefix_path.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/hook/cmake_prefix_path.dsv'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/hook/cmake_prefix_path.sh'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/bin'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/lib/pkgconfig/kuka_moveit.pc'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/lib/python3.10/site-packages'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_moveit/bin'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.bash'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.zsh'
+[1.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourav/kuka_ws/install/kuka_moveit/share/colcon-core/packages/kuka_moveit)
+[1.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_controllers)
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers' for CMake module files
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourav/kuka_ws/build/kuka_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_controllers
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers' for CMake config files
+[1.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_controllers', 'cmake_prefix_path')
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/hook/cmake_prefix_path.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/hook/cmake_prefix_path.dsv'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/hook/cmake_prefix_path.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/bin'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/lib/pkgconfig/kuka_controllers.pc'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/lib/python3.10/site-packages'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/bin'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.sh'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.zsh'
+[1.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourav/kuka_ws/install/kuka_controllers/share/colcon-core/packages/kuka_controllers)
+[1.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_controllers)
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers' for CMake module files
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers' for CMake config files
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_controllers', 'cmake_prefix_path')
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/hook/cmake_prefix_path.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/hook/cmake_prefix_path.sh'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/bin'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/lib/pkgconfig/kuka_controllers.pc'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/lib/python3.10/site-packages'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/sourav/kuka_ws/install/kuka_controllers/bin'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.bash'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourav/kuka_ws/install/kuka_controllers/share/kuka_controllers/package.zsh'
+[1.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourav/kuka_ws/install/kuka_controllers/share/colcon-core/packages/kuka_controllers)
+[1.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.056s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.062s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.083s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourav/kuka_ws/install/local_setup.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sourav/kuka_ws/install/_local_setup_util_ps1.py'
+[1.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourav/kuka_ws/install/setup.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourav/kuka_ws/install/local_setup.sh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sourav/kuka_ws/install/_local_setup_util_sh.py'
+[1.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourav/kuka_ws/install/setup.sh'
+[1.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourav/kuka_ws/install/local_setup.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourav/kuka_ws/install/setup.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourav/kuka_ws/install/local_setup.zsh'
+[1.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourav/kuka_ws/install/setup.zsh'

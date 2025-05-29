@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config/kuka.srdf
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config/joint_limits.yaml
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config/kinematics.yaml
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config/initial_positions.yaml
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/config/moveit_controllers.yaml
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/launch
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/launch/moveit.launch.py
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/ament_index/resource_index/package_run_dependencies/kuka_moveit
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/ament_index/resource_index/parent_prefix_path/kuka_moveit
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/path.sh
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/path.dsv
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.bash
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.sh
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.zsh
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.dsv
+-- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.dsv
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/ament_index/resource_index/packages/kuka_moveit
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/cmake/kuka_moveitConfig.cmake
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/cmake/kuka_moveitConfig-version.cmake
+-- Up-to-date: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.xml

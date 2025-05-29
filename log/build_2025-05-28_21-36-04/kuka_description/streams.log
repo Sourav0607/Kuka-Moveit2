@@ -1,0 +1,47 @@
+[0.012s] Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.129s] Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.131s] Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_description
+[0.139s] -- Install configuration: ""
+[0.139s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/urdf
+[0.139s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/urdf/kr10r1420.urdf.xacro
+[0.140s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka_ros2_control.xacro
+[0.140s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/urdf/kr10r1420.xacro
+[0.140s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka_gazebo.xacro
+[0.140s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/resources
+[0.140s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/resources/common_materials.xacro
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/resources/common_constants.xacro
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/resources/common_colours.xacro
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/link_1.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/link_5.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/link_6.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/base_link.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/link_4.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/link_3.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/meshes/link_2.stl
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions
+[0.141s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/link_1.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/link_5.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/link_6.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/base_link.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/link_4.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/link_3.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/collisions/link_2.stl
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/launch
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/launch/gazebo.launch.py
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/ament_index/resource_index/package_run_dependencies/kuka_description
+[0.142s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/ament_index/resource_index/parent_prefix_path/kuka_description
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.sh
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.dsv
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/path.sh
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/path.dsv
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.bash
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.sh
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.zsh
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.dsv
+[0.143s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.dsv
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/ament_index/resource_index/packages/kuka_description
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig.cmake
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig-version.cmake
+[0.143s] -- Up-to-date: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.xml
+[0.160s] Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_description

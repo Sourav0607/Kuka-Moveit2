@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.072s] [31mCMake Error at CMakeLists.txt:19:
+[0.073s]   Parse error.  Expected "(", got newline with text "
+[0.073s] 
+[0.073s]   ".
+[0.073s] 
+[0.073s] [0m
+[0.073s] -- Configuring incomplete, errors occurred!
+[0.073s] See also "/home/sourav/kuka_ws/build/kuka_description/CMakeFiles/CMakeOutput.log".
+[0.079s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.081s] Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12

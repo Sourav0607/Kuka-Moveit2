@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake /home/sourav/kuka_ws/src/kuka_description -DCMAKE_INSTALL_PREFIX=/home/sourav/kuka_ws/install/kuka_description
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.456s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.556s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.635s] -- Added test 'lint_cmake' to check CMake code style
+[0.635s] -- Added test 'xmllint' to check XML markup files
+[0.637s] -- Configuring done
+[0.639s] -- Generating done
+[0.641s] -- Build files have been written to: /home/sourav/kuka_ws/build/kuka_description
+[0.647s] Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake /home/sourav/kuka_ws/src/kuka_description -DCMAKE_INSTALL_PREFIX=/home/sourav/kuka_ws/install/kuka_description
+[0.649s] Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.682s] Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_description -- -j12 -l12
+[0.690s] Invoking command in '/home/sourav/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_description
+[0.696s] -- Install configuration: ""
+[0.696s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/ament_index/resource_index/package_run_dependencies/kuka_description
+[0.696s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/ament_index/resource_index/parent_prefix_path/kuka_description
+[0.696s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.sh
+[0.696s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.dsv
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/path.sh
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/environment/path.dsv
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.bash
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.sh
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.zsh
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/local_setup.dsv
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.dsv
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/ament_index/resource_index/packages/kuka_description
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig.cmake
+[0.697s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig-version.cmake
+[0.698s] -- Installing: /home/sourav/kuka_ws/install/kuka_description/share/kuka_description/package.xml
+[0.699s] Invoked command in '/home/sourav/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_description

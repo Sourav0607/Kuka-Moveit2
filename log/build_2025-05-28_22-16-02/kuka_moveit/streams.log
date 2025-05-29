@@ -1,0 +1,42 @@
+[0.014s] Invoking command in '/home/sourav/kuka_ws/build/kuka_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake /home/sourav/kuka_ws/src/kuka_moveit -DCMAKE_INSTALL_PREFIX=/home/sourav/kuka_ws/install/kuka_moveit
+[1.089s] -- The C compiler identification is GNU 11.4.0
+[1.330s] -- The CXX compiler identification is GNU 11.4.0
+[1.339s] -- Detecting C compiler ABI info
+[1.402s] -- Detecting C compiler ABI info - done
+[1.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.410s] -- Detecting C compile features
+[1.420s] -- Detecting C compile features - done
+[1.423s] -- Detecting CXX compiler ABI info
+[1.498s] -- Detecting CXX compiler ABI info - done
+[1.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.505s] -- Detecting CXX compile features
+[1.506s] -- Detecting CXX compile features - done
+[1.509s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.683s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.804s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.895s] -- Added test 'lint_cmake' to check CMake code style
+[1.896s] -- Added test 'xmllint' to check XML markup files
+[1.898s] -- Configuring done
+[1.901s] -- Generating done
+[1.904s] -- Build files have been written to: /home/sourav/kuka_ws/build/kuka_moveit
+[1.908s] Invoked command in '/home/sourav/kuka_ws/build/kuka_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake /home/sourav/kuka_ws/src/kuka_moveit -DCMAKE_INSTALL_PREFIX=/home/sourav/kuka_ws/install/kuka_moveit
+[1.910s] Invoking command in '/home/sourav/kuka_ws/build/kuka_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_moveit -- -j12 -l12
+[1.941s] Invoked command in '/home/sourav/kuka_ws/build/kuka_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --build /home/sourav/kuka_ws/build/kuka_moveit -- -j12 -l12
+[1.943s] Invoking command in '/home/sourav/kuka_ws/build/kuka_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_moveit
+[1.953s] -- Install configuration: ""
+[1.953s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/ament_index/resource_index/package_run_dependencies/kuka_moveit
+[1.953s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/ament_index/resource_index/parent_prefix_path/kuka_moveit
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/ament_prefix_path.sh
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/ament_prefix_path.dsv
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/path.sh
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/environment/path.dsv
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.bash
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.sh
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.zsh
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/local_setup.dsv
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.dsv
+[1.954s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/ament_index/resource_index/packages/kuka_moveit
+[1.955s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/cmake/kuka_moveitConfig.cmake
+[1.955s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/cmake/kuka_moveitConfig-version.cmake
+[1.955s] -- Installing: /home/sourav/kuka_ws/install/kuka_moveit/share/kuka_moveit/package.xml
+[1.957s] Invoked command in '/home/sourav/kuka_ws/build/kuka_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sourav/iki_workspace/ros2_ws/install/catch_a_turtle:/home/sourav/iki_workspace/ros2_ws/install/turtlemover:/home/sourav/iki_workspace/ros2_ws/install/tb3_rwu_arena:/home/sourav/iki_workspace/ros2_ws/install/py_pubsub:/home/sourav/iki_workspace/ros2_ws/install/my_package:/home/sourav/iki_workspace/ros2_ws/install/my_cv_package:/home/sourav/iki_workspace/ros2_ws/install/follow_wall:/home/sourav/iki_workspace/ros2_ws/install/follow_line:/home/sourav/iki_workspace/ros2_ws/install/drive_to_wall:/home/sourav/iki_workspace/ros2_ws/install/autorace_wall_follow:/opt/ros/humble /usr/bin/cmake --install /home/sourav/kuka_ws/build/kuka_moveit
