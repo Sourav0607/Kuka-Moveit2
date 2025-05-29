@@ -29,4 +29,4 @@ This project demonstrates path planning and manipulation for the KUKA KR10 R1420
 
 1. Clone this repository into your ROS 2 workspace:
    ```bash
-   git clone https://github.com/Toxic2417/Kuka-Moveit2.git
+   git clone https://github.com/Sourav0607/Kuka-Moveit2.git
