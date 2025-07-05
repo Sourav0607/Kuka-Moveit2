@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sourav/kuka_ws/install/kuka_msgs/include/**",
+        "/home/sourav/iki_workspace/ros2_ws/install/turtlesim/include/**",
+        "/home/sourav/iki_workspace/ros2_ws/install/turtlebot3_gazebo/include/**",
+        "/home/sourav/iki_workspace/ros2_ws/install/turtlebot3_fake_node/include/**",
+        "/home/sourav/iki_workspace/ros2_ws/install/autorace_real_interfaces/include/**",
+        "/home/sourav/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/sourav/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/sourav/kuka_ws/src/kuka_controllers/include/**",
+        "/home/sourav/kuka_ws/src/kuka_description/include/**",
+        "/home/sourav/kuka_ws/src/kuka_moveit/include/**",
+        "/home/sourav/kuka_ws/src/kuka_msgs/include/**",
+        "/home/sourav/kuka_ws/src/kuka_remote/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
