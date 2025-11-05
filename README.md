@@ -9,6 +9,8 @@ This project demonstrates path planning and manipulation for the KUKA KR10 R1420
 - Created the **URDF model** of the robot, including all necessary controllers.
 - Developed **MoveIt2 launch files** for planning and visualization.
 - Successfully manipulated the robot in **RViz**, performing planned trajectories and motions.
+- The ` kuka_remote` script handles various tasks, allowing the robot to move to a desired position by publishing a `send_goal` command.
+
 
 ## Features
 
