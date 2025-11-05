@@ -1,0 +1,10 @@
+# ROS 2 colcon workspace build artifacts
+build/
+install/
+log/
+
+# Compile commands
+compile_commands.json
+
+# Editor and IDE
+.vscode/
