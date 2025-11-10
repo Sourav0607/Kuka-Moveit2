@@ -100,11 +100,16 @@ For a complete simulation with motion planning:
    ```bash
    ros2 launch kuka_description gazebo.launch.py
    ```
+2. **Terminal 2** - Launch controllers:
+   ```bash
+   ros2 launch kuka_controllers controllers.launch.py
+   ```
 
-2. **Terminal 2** - Launch MoveIt2:
+3. **Terminal 3** - Launch MoveIt2:
    ```bash
    ros2 launch kuka_moveit moveit.launch.py
    ```
+
 
 3. Use the MoveIt2 RViz interface to plan and execute trajectories, or use manual teach mode to save and replay poses
 
