@@ -32,6 +32,25 @@ arm_controller:
 
     open_loop_control: true
     allow_integration_in_goal_trajectories: true
+    
+    # Tolerances for goal achievement
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0  # 0 means no time constraint
+      
+    # Per-joint goal tolerances
+    joint_a1:
+      goal: 0.05
+    joint_a2:
+      goal: 0.05
+    joint_a3:
+      goal: 0.05
+    joint_a4:
+      goal: 0.05
+    joint_a5:
+      goal: 0.05
+    joint_a6:
+      goal: 0.05
 
 # gripper_controller:
 #   ros__parameters:

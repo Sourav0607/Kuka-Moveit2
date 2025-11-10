@@ -97,7 +97,7 @@ private:
       RCLCPP_ERROR(get_logger(), "Target position out of boundaries");
       return;
     }
-    moveit::planning_interface::MoveGroupInterface::Plan arm_plan, gripper_plan;
+    moveit::planning_interface::MoveGroupInterface::Plan arm_plan;
     bool arm_plan_success = (arm_move_group_->plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
     // bool gripper_plan_success = (gripper_move_group_->plan(gripper_plan)== moveit::core::MoveItErrorCode::SUCCESS);
 
@@ -114,6 +114,6 @@ private:
     goal_handle->succeed(result);
   }
 };
-}  // namespace arduinobot_cpp_examples
+}  // namespace kuka_remote
 
 RCLCPP_COMPONENTS_REGISTER_NODE(kuka_remote::TaskServer)
