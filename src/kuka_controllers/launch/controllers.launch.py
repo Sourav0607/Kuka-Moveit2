@@ -27,19 +27,8 @@ def generate_launch_description():
                      
     )
     
-    controller_manager = Node(
-        package= "controller_manager",
-        executable ="ros2_control_node",
-        parameters=[
-            {"robot_description" : robot_description},
-            os.path.join(
-                get_package_share_directory("kuka_controllers"),
-                "config",
-                "kuka_controllers.yaml"
-                
-            )
-        ]
-    )
+    # NOTE: controller_manager node is NOT needed when using Gazebo
+    # Gazebo's ros2_control plugin provides the controller_manager
     
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
@@ -67,9 +56,6 @@ def generate_launch_description():
     
     return LaunchDescription([
         robot_state_publisher_node,
-        controller_manager,
         joint_state_broadcaster_spawner,
         arm_controller_spawner,
-        
-        
     ])

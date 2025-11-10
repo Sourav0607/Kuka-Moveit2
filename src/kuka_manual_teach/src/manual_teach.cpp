@@ -6,6 +6,8 @@
 #include <vector>
 #include <termios.h>
 #include <unistd.h>
+#include <thread>
+#include <chrono>
 
 class ManualTeachNode : public rclcpp::Node
 {
@@ -101,6 +103,13 @@ private:
   void saveCurrentPose()
   {
     RCLCPP_INFO(get_logger(), "Reading current joint state...");
+    
+    // Spin for a brief moment to ensure we have the latest joint state
+    for (int i = 0; i < 10; ++i)
+    {
+      rclcpp::spin_some(this->shared_from_this());
+      std::this_thread::sleep_for(std::chrono::milliseconds(10));
+    }
     
     std::vector<double> current_joints;
     
