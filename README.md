@@ -162,8 +162,8 @@ This project is open-source. License details to be determined.
 
 **Sourav Hawaldar**
 - Email: sourav.hawaldar@gmail.com
-- GitHub: [Toxic2417](https://github.com/Sourav0607)
+- GitHub: [Sourav0607](https://github.com/Sourav0607)
 
 ## Repository
 
-[Toxic2417/Kuka-Moveit2](https://github.com/Sourav0607/Kuka-Moveit2)
+[Sourav0607/Kuka-Moveit2](https://github.com/Sourav0607/Kuka-Moveit2)
