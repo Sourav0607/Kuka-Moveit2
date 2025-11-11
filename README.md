@@ -42,7 +42,7 @@ sudo apt install ros-${ROS_DISTRO}-moveit ros-${ROS_DISTRO}-gazebo-ros-pkgs \
 ```bash
 mkdir -p ~/kuka_ws/src
 cd ~/kuka_ws/src
-git clone https://github.com/Toxic2417/Kuka-Moveit2.git .
+git clone https://github.com/Sourav0607/Kuka-Moveit2.git .
 ```
 
 2. Install dependencies:
@@ -162,8 +162,8 @@ This project is open-source. License details to be determined.
 
 **Sourav Hawaldar**
 - Email: sourav.hawaldar@gmail.com
-- GitHub: [Toxic2417](https://github.com/Toxic2417)
+- GitHub: [Toxic2417](https://github.com/Sourav0607)
 
 ## Repository
 
-[Toxic2417/Kuka-Moveit2](https://github.com/Toxic2417/Kuka-Moveit2)
+[Toxic2417/Kuka-Moveit2](https://github.com/Sourav0607/Kuka-Moveit2)
