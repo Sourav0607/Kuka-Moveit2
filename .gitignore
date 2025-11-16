@@ -8,3 +8,5 @@ compile_commands.json
 
 # Editor and IDE
 .vscode/
+
+src/models/

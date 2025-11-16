@@ -18,11 +18,13 @@ def generate_launch_description():
 
     moveit_config = (
         MoveItConfigsBuilder("kr10r1420", package_name="kuka_moveit")
-        .robot_description(file_path=os.path.join(
-            get_package_share_directory("kuka_description"),
-            "urdf",
-            "kr10r1420.urdf.xacro"
-            )
+        .robot_description(
+            file_path=os.path.join(
+                get_package_share_directory("kuka_description"),
+                "urdf",
+                "kr10r1420.urdf.xacro"
+            ),
+            mappings={"use_gripper": "true", "is_ignition": "true"}
         )
         .robot_description_semantic(file_path="config/kuka.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
@@ -39,11 +41,10 @@ def generate_launch_description():
         arguments=["--ros-args", "--log-level", "info"],
     )
 
-    # RViz
+    # RViz - Load saved configuration
     rviz_config = os.path.join(
         get_package_share_directory("kuka_moveit"),
-            "config",
-            "moveit.rviz",
+            "kuka_moveit.rviz",
     )
     rviz_node = Node(
         package="rviz2",
