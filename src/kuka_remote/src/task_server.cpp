@@ -28,10 +28,8 @@ public:
 
 private:
   rclcpp_action::Server<kuka_msgs::action::KukaTask>::SharedPtr action_server_;
-  // std::shared_ptr<moveit::planning_interface::MoveGroupInterface> arm_move_group_, gripper_move_group_;
-  std::shared_ptr<moveit::planning_interface::MoveGroupInterface> arm_move_group_;
-  // std::vector<double> arm_joint_goal_, gripper_joint_goal_;
-  std::vector<double> arm_joint_goal_;
+  std::shared_ptr<moveit::planning_interface::MoveGroupInterface> arm_move_group_; //, gripper_move_group_;
+  std::vector<double> arm_joint_goal_; //, gripper_joint_goal_;
 
   rclcpp_action::GoalResponse goalCallback(
       const rclcpp_action::GoalUUID& uuid,
@@ -75,13 +73,13 @@ private:
     auto result = std::make_shared<kuka_msgs::action::KukaTask::Result>();
     if (goal_handle->get_goal()->task_number==0){
       arm_joint_goal_ = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
-      // gripper_joint_goal_ = {-0.7, -0.7};
+      // gripper_joint_goal_ = {0.0};
     }else if (goal_handle->get_goal()->task_number==1){
-      arm_joint_goal_ = {1.34, -1.34, 1.29, 2.77, -0.47, 0.0};
-      // gripper_joint_goal_ = {-0.7, -0.7};
+      arm_joint_goal_ = {0.13, -0.57, 1.69, 1.41, 0.0, 0.017};
+      // gripper_joint_goal_ = {0.0};
     }else if (goal_handle->get_goal()->task_number==2){
       arm_joint_goal_ = {-0.94, -0.24, 0.87, -3.22, -0.38, 2.67};
-      // gripper_joint_goal_ = {-0.7, -0.7};
+      // gripper_joint_goal_ = {0.0};
     }else {
       RCLCPP_ERROR(get_logger(), "Invalid Task Number");
       return;
@@ -98,13 +96,13 @@ private:
       return;
     }
     moveit::planning_interface::MoveGroupInterface::Plan arm_plan;
+    // moveit::planning_interface::MoveGroupInterface::Plan gripper_plan;
     bool arm_plan_success = (arm_move_group_->plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
-    // bool gripper_plan_success = (gripper_move_group_->plan(gripper_plan)== moveit::core::MoveItErrorCode::SUCCESS);
+    // bool gripper_plan_success = (gripper_move_group_->plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
 
     if (arm_plan_success){
-      arm_move_group_-> move();
+      arm_move_group_->move();
       // gripper_move_group_->move();
-
     }else {
       RCLCPP_ERROR(get_logger(), "One or more planner failed");
       return;
