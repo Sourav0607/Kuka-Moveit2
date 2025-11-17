@@ -45,8 +45,14 @@ install(TARGETS
 )
 
 install(
-  DIRECTORY launch
+  DIRECTORY launch scripts
   DESTINATION share/${PROJECT_NAME}
+)
+
+# Install Python scripts
+install(PROGRAMS
+  scripts/box_detector.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 

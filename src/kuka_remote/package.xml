@@ -13,6 +13,11 @@
   <depend>rclcpp_components</depend>
   <depend>kuka_msgs</depend>
   <depend>moveit_ros_planning_interface</depend>
+  
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
 
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>kuka_moveit</exec_depend>
