@@ -19,6 +19,13 @@
       <render_engine>ogre2</render_engine>
     </plugin>
 
+    <!-- ROS2 Bridge for Clock -->
+    <plugin filename="libignition-gazebo-ros-gz-bridge-system.so" name="ignition::gazebo::systems::RosGzBridge">
+      <ros_topic_name>/clock</ros_topic_name>
+      <gz_topic_name>/clock</gz_topic_name>
+      <message_type>rosgraph_msgs/msg/Clock</message_type>
+    </plugin>
+
     <!-- Lighting -->
     <light type="directional" name="sun">
       <cast_shadows>true</cast_shadows>
