@@ -29,13 +29,6 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# Install launch files if they exist
-if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/launch)
-  install(DIRECTORY launch
-    DESTINATION share/${PROJECT_NAME}
-  )
-endif()
-
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
