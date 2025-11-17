@@ -3,6 +3,7 @@
 
   <xacro:include filename="$(find kuka_description)/resources/common_materials.xacro"/>
   <xacro:include filename="$(find kuka_description)/urdf/gripper.xacro"/>
+  <xacro:include filename="$(find kuka_description)/urdf/camera.xacro"/>
 
   <xacro:arg name="is_ignition" default="true"/>
   <xacro:include filename="$(find kuka_description)/urdf/kuka_gazebo.xacro" />
@@ -228,5 +229,10 @@
 
   <!-- Instantiate the macro once to create the robot -->
   <xacro:kuka_kr10r1420 prefix=""/>
+
+  <!-- Add RGB camera mounted in the world, pointing straight down at boxes -->
+  <xacro:rgb_camera parent="world">
+    <origin xyz="1.0 0.0 1.5" rpy="0 ${pi/2} 0"/>
+  </xacro:rgb_camera>
 
 </robot>

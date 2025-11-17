@@ -60,12 +60,14 @@ def generate_launch_description():
     # ----------------------------------------------------------
     #  LAUNCH GZ SIM
     # ----------------------------------------------------------
+    world_file = os.path.join(kuka_description, "worlds", "kuka_world.sdf")
+    
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             os.path.join(get_package_share_directory("ros_gz_sim"), "launch"),
             "/gz_sim.launch.py"
         ]),
-        launch_arguments=[("gz_args", [" -v 4 -r empty.sdf"])]
+        launch_arguments=[("gz_args", [f" -v 4 -r {world_file}"])]
     )
 
     # ----------------------------------------------------------
@@ -118,6 +120,43 @@ def generate_launch_description():
     ]
 
     # ----------------------------------------------------------
+    #  SPAWN COLORED BOXES
+    # ----------------------------------------------------------
+    models_dir = "/home/sourav/kuka_ws/src/models"
+    
+    def spawn_box(name, model_name, x, y, z):
+        return Node(
+            package="ros_gz_sim",
+            executable="create",
+            output="screen",
+            arguments=[
+                "-file", f"{models_dir}/{model_name}/model.sdf",
+                "-name", name,
+                "-x", str(x), "-y", str(y), "-z", str(z)
+            ],
+        )
+
+    # Spawn boxes on table1 (in front of robot at x=1.0)
+    box_nodes = [
+        spawn_box("red_box", "RedBox", 1.5, -0.15, 1.025),    # Left side of table
+        spawn_box("green_box", "GreenBox", 1.5, 0.0, 1.025),  # Center of table
+        spawn_box("blue_box", "BlueBox", 1.5, 0.15, 1.025),   # Right side of table
+    ]
+
+    # ----------------------------------------------------------
+    #  BRIDGE CAMERA TOPIC TO ROS 2
+    # ----------------------------------------------------------
+    camera_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            "/camera@sensor_msgs/msg/Image@gz.msgs.Image",
+            "/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo"
+        ],
+        output="screen"
+    )
+
+    # ----------------------------------------------------------
     #  FINAL LAUNCH DESCRIPTION
     # ----------------------------------------------------------
     return LaunchDescription([
@@ -127,5 +166,7 @@ def generate_launch_description():
         gazebo,
         gz_spawn_entity,
         gz_ros2_bridge,
-        *table_nodes
+        *table_nodes,
+        *box_nodes,
+        camera_bridge
     ])
