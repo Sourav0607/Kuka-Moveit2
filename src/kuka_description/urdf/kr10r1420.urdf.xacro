@@ -2,6 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kuka_kr10r1420">
 
   <xacro:include filename="$(find kuka_description)/resources/common_materials.xacro"/>
+  <xacro:include filename="$(find kuka_description)/urdf/gripper.xacro"/>
 
   <xacro:arg name="is_ignition" default="true"/>
   <xacro:include filename="$(find kuka_description)/urdf/kuka_gazebo.xacro" />
@@ -217,6 +218,12 @@
       <child link="${prefix}tool0"/>
       <origin xyz="0 0 0" rpy="0 ${radians(90)} 0"/>
     </joint>
+
+    <!-- Add gripper to the flange -->
+    <xacro:simple_gripper prefix="${prefix}" parent="${prefix}flange">
+      <origin xyz="0 0 0" rpy="0 ${radians(90)} 0"/>
+    </xacro:simple_gripper>
+
   </xacro:macro>
 
   <!-- Instantiate the macro once to create the robot -->

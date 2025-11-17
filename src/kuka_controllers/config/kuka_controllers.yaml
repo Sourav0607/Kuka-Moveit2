@@ -5,11 +5,8 @@ controller_manager:
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    # gripper_controller:
-    #   type: forward_command_controller/ForwardCommandController
-
-    # gripper_controller:
-    #   type: joint_trajectory_controller/JointTrajectoryController
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -52,17 +49,24 @@ arm_controller:
     joint_a6:
       goal: 0.05
 
-# gripper_controller:
-#   ros__parameters:
-#     joints:
-#       - joint_4
-#     # interface_name: position #(useful for forward controller)
+gripper_controller:
+  ros__parameters:
+    joints:
+      - gripper_left_finger_joint
       
-#     command_interfaces:
-#       - position
+    command_interfaces:
+      - position
 
-#     state_interfaces:
-#       - position
+    state_interfaces:
+      - position
 
-#     open_loop_control: true
-#     allow_integration_in_goal_trajectories: true
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+    
+    # Tolerances for goal achievement
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+      
+    gripper_left_finger_joint:
+      goal: 0.005
