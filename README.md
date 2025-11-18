@@ -2,6 +2,19 @@
 
 A complete ROS 2 workspace for simulating and controlling the KUKA KR10 R1420 industrial robot with MoveIt2 motion planning, 2-finger parallel gripper, RGB camera, and vision-based box detection.
 
+## Demo
+
+### Robot in Gazebo Simulation
+<p align="center">
+  <img src="results/Screenshot from 2025-11-18 10-59-16.png" width="45%" />
+  <img src="results/Screenshot from 2025-11-18 10-59-42.png" width="45%" />
+</p>
+
+### Robot in Action
+<p align="center">
+  <img src="results/Screencast from 11-18-2025 11-03-30 AM.gif" width="80%" />
+</p>
+
 ## Overview
 
 This project provides a full ROS 2 implementation for the KUKA KR10 R1420 robot, featuring:
