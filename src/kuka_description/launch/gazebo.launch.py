@@ -144,14 +144,36 @@ def generate_launch_description():
     ]
 
     # ----------------------------------------------------------
-    #  BRIDGE CAMERA TOPIC TO ROS 2
+    #  BRIDGE DEPTH CAMERA TOPICS TO ROS 2
     # ----------------------------------------------------------
     camera_bridge = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-            "/camera@sensor_msgs/msg/Image@gz.msgs.Image",
-            "/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo"
+            "/camera@sensor_msgs/msg/Image[ignition.msgs.Image",
+            "/camera_info@sensor_msgs/msg/CameraInfo[ignition.msgs.CameraInfo",
+            "/camera/points@sensor_msgs/msg/PointCloud2[ignition.msgs.PointCloudPacked",
+        ],
+        remappings=[
+            ("/camera", "/camera/image_raw"),
+            ("/camera_info", "/camera/camera_info"),
+            ("/camera/points", "/camera/depth/points"),
+        ],
+        output="screen"
+    )
+
+    # ----------------------------------------------------------
+    #  STATIC TF FOR CAMERA FRAME COMPATIBILITY
+    # ----------------------------------------------------------
+    # Transform from camera_link to Gazebo's sensor frame with 180 degree rotation
+    static_tf_camera = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=[
+            "0", "0", "0",
+            "1.57", "0", "-1.57",  # -pi/2, pi, -pi/2 (180 degree rotation)
+            "camera_link",
+            "kr10r1420/camera_link/depth_camera"
         ],
         output="screen"
     )
@@ -168,5 +190,6 @@ def generate_launch_description():
         gz_ros2_bridge,
         *table_nodes,
         *box_nodes,
-        camera_bridge
+        camera_bridge,
+        static_tf_camera
     ])
